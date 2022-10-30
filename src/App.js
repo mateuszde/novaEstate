@@ -1,24 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import { ThemeProvider } from 'styled-components';
+import { FullWidthWrapper } from './AppStyle';
+import GlobalStyle from './components/globalStyles';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+
+const theme = {
+  colors: {
+    primary: '#383E42',
+    secondary: '#A6A6A6',
+    black: '#0D0D0D',
+    lightGray: '#F2F2F2',
+    darkGray: '#737373',
+    white: '#fff',
+  },
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <GlobalStyle />
+      <ThemeProvider theme={theme}>
+        <FullWidthWrapper>
+          <Navbar />
+          <Header />
+        </FullWidthWrapper>
+      </ThemeProvider>
+    </>
   );
 }
 
