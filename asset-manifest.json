@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/novaEstate/static/js/main.596ab9d7.js",
+    "main.js": "/novaEstate/static/js/main.ad74898b.js",
     "index.html": "/novaEstate/index.html",
-    "main.596ab9d7.js.map": "/novaEstate/static/js/main.596ab9d7.js.map"
+    "main.ad74898b.js.map": "/novaEstate/static/js/main.ad74898b.js.map"
   },
   "entrypoints": [
-    "static/js/main.596ab9d7.js"
+    "static/js/main.ad74898b.js"
   ]
 }
