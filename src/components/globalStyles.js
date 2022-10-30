@@ -18,6 +18,10 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    line-height: 1.5em;
+}
+
 `;
 
 export default GlobalStyle;

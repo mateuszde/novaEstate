@@ -1,10 +1,16 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-  display: flex;
-  position: sticky;
+export const NavWrapper = styled.div`
+  width: 100%;
+  position: fixed;
   top: 0;
   left: 0;
+  z-index: 900;
+  background-color: ${({ theme }) => theme.colors.white};
+`;
+
+export const Wrapper = styled.div`
+  display: flex;
   justify-content: space-between;
   align-items: center;
   max-width: 1200px;

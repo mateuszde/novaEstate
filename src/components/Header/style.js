@@ -13,7 +13,7 @@ export const Wrapper = styled.header`
   left: 0;
   right: 100;
   /* background-color: rgba(56, 62, 66, 0.3); */
-  background-color: rgba(0, 0, 0, 0.2);
+  /* background-color: rgba(0, 0, 0, 0.1); */
 `;
 
 export const TextWrapper = styled.div`
