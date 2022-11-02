@@ -1,10 +1,13 @@
 {
   "files": {
-    "main.js": "/novaEstate/static/js/main.ad74898b.js",
+    "main.css": "/novaEstate/static/css/main.f0c64c66.css",
+    "main.js": "/novaEstate/static/js/main.d7df0add.js",
     "index.html": "/novaEstate/index.html",
-    "main.ad74898b.js.map": "/novaEstate/static/js/main.ad74898b.js.map"
+    "main.f0c64c66.css.map": "/novaEstate/static/css/main.f0c64c66.css.map",
+    "main.d7df0add.js.map": "/novaEstate/static/js/main.d7df0add.js.map"
   },
   "entrypoints": [
-    "static/js/main.ad74898b.js"
+    "static/css/main.f0c64c66.css",
+    "static/js/main.d7df0add.js"
   ]
 }
