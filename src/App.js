@@ -1,4 +1,4 @@
-import { ThemeProvider } from 'styled-components';
+import styled, { ThemeProvider } from 'styled-components';
 import { FullWidthWrapper } from './AppStyle';
 import Cards from './components/Cards/Cards/Cards';
 import GlobalStyle from './components/globalStyles';
@@ -8,6 +8,8 @@ import Navbar from './components/Navbar/Navbar';
 import { first } from './cardsData';
 import TextOnImage from './components/TextOnImage/TextOnImage';
 import TextAndPictureEachOther from './components/TextAndPictureEachOther/TextAndPictureEachOther';
+import SliderWithText from './components/SliderWithText/SliderWithText';
+import Table from './components/Table/Table';
 
 const theme = {
   colors: {
@@ -19,6 +21,12 @@ const theme = {
     white: '#fff',
   },
 };
+
+const TemporaryWrapper = styled.div`
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 60px 0;
+`;
 
 function App() {
   return (
@@ -38,6 +46,32 @@ function App() {
             W tych funkcjonalnych wnętrzach każdy członek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Domy mają także indywidualne ogródki, które idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi."
             nameOfImageFromPublicWithExtension="headerBgc.jpg"
           />
+          <SliderWithText />
+          <TemporaryWrapper>
+            <h2>
+              SEKCJA Z OPISEM POSZCZEGÓLNYCH KONDYGNACJI WRAZ ZE ZDJĘCIAMI RZUTÓW - RZUTY 3D OD MM
+            </h2>
+          </TemporaryWrapper>
+          <TemporaryWrapper>
+            <h2>
+              ZDJĘCIE Z DRONA Z OZNACZONYMI BUDYNKAMI WRAZ Z KÓŁKAMI OZNACZAJĄCYMI NUMERY BUDYNKÓW -
+              OD MM
+            </h2>
+          </TemporaryWrapper>
+          <Table />
+          <TextOnImage
+            title="O inwestorze"
+            text="W branży deweloperskiej skupiamy się na nietuzinkowych, oryginalnych rozwiązaniach, które łączą maksymalny komfort mieszkania w funkcjonalnych wnętrzach z wyjątkową lokalizacją inwestycji. Tworzymy nowoczesne domy z zachowaniem najwyższych standardów, przy wykorzystaniu sprawdzonych materiałów i pracy doświadczonych specjalistów.
+
+            Każdy realizowany przez nas projekt ma gwarantować przyszłym mieszkańcom satysfakcję z dokonanego wyboru. Oferujemy domy, które odpowiadają na potrzeby nawet najbardziej wymagających klientów."
+            nameOfImageFromPublicWithExtension="headerBgc.jpg"
+          />
+          <TemporaryWrapper>
+            <h2>DANE KONTAKTOWE</h2>
+          </TemporaryWrapper>
+          <TemporaryWrapper>
+            <h2>STOPKA</h2>
+          </TemporaryWrapper>
         </FullWidthWrapper>
       </ThemeProvider>
     </>

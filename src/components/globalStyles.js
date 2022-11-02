@@ -19,7 +19,7 @@ body {
 }
 
 p {
-    line-height: 1.5em;
+    line-height: 1.5em;font-size: 17px;
 }
 
 `;
