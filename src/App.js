@@ -37,10 +37,15 @@ function App() {
       <ThemeProvider theme={theme}>
         <FullWidthWrapper>
           <Navbar />
+
           <Header />
+
           <Cards data={first} moveUp />
+
           <TextAndPictureEachOther nameOfImageFromPublicWithExtension="mapWithPoints.jpg" />
+
           <Cards data={first} />
+
           <TextOnImage
             title="Przestrzeń, w której doskonale czuje się każdy domownik"
             text="Leśne Zacisze to kameralna inwestycja, która obejmuje cztery budynki w zabudowie bliźniaczej, czyli osiem domów. Lokale dostępne są w dwóch wariantach: o powierzchni 92,93 m² z trzema sypialniami lub 92,38 m² z czterema sypialnialniami lub 92,38 m² z cztzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale taiami, dzięki czemu komfortowo dopasujesz przestrzeń do swoich indywidualnych potrzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale także np. za praktyczny gabinet do pracy zdalnej.
@@ -48,6 +53,7 @@ function App() {
             W tych funkcjonalnych wnętrzach każdy człosnek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Domy mają także indywidualne ogródki, które idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi."
             nameOfImageFromPublicWithExtension="textOnImage2.jpg"
           />
+
           <SliderWithText images={images} />
 
           <YourNewHome title="Poznaj swój wymarzony dom" subTitle="Dom z ogrodem - 3 sypialnie" />
@@ -58,7 +64,9 @@ function App() {
               OD MM
             </h2>
           </TemporaryWrapper>
+
           <Table />
+
           <TextOnImage
             title="O inwestorze"
             text="W branży deweloperskiej skupiamy się na nietuzinkowych, oryginalnych rozwiązaniach, które łączą maksymalny komfort mieszkania w funkcjonalnych wnętrzach z wyjątkową lokalizacją inwestycji. Tworzymy nowoczesne domy z zachowaniem najwyższych standardów, przy wykorzystaniu sprawdzonych materiałów i pracy doświadczonych specjalistów.
@@ -66,9 +74,11 @@ function App() {
             Każdy realizowany przez nas projekt ma gwarantować przyszłym mieszkańcom satysfakcję z dokonanego wyboru. Oferujemy domy, które odpowiadają na potrzeby nawet najbardziej wymagających klientów."
             nameOfImageFromPublicWithExtension="textOnImage1.jpg"
           />
+
           <TemporaryWrapper>
             <h2>DANE KONTAKTOWE</h2>
           </TemporaryWrapper>
+
           <TemporaryWrapper>
             <h2>STOPKA</h2>
           </TemporaryWrapper>
