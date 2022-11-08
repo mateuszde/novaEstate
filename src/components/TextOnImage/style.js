@@ -23,6 +23,11 @@ export const TextWrapper = styled.div`
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
   opacity: 0.95;
   border-radius: 20px;
+  transition: 0.4s ease;
+
+  &:hover {
+    opacity: 1;
+  }
 `;
 
 export const Title = styled.h2`

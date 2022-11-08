@@ -10,6 +10,12 @@ export const CardWrapper = styled.div`
   margin-top: 90px;
   margin-bottom: 20px;
   border-radius: 20px;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  transition: 0.2s ease;
+
+  &:hover {
+    transform: scale(1.02);
+  }
 `;
 
 export const IconWrapper = styled.div`
