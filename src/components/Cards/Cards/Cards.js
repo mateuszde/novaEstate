@@ -5,7 +5,7 @@ const Cards = ({ data, moveUp }) => {
   return (
     <Wrapper
       style={{
-        marginTop: `${moveUp ? '-140px' : '0'}`,
+        marginTop: `${moveUp ? '-160px' : '0'}`,
       }}
     >
       <ListCards data={data} />

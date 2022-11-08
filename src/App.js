@@ -6,10 +6,12 @@ import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 
 import { first } from './cardsData';
+import { images } from './components/SliderWithText/imagesForSlider';
 import TextOnImage from './components/TextOnImage/TextOnImage';
 import TextAndPictureEachOther from './components/TextAndPictureEachOther/TextAndPictureEachOther';
 import SliderWithText from './components/SliderWithText/SliderWithText';
 import Table from './components/Table/Table';
+import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
 
 const theme = {
   colors: {
@@ -37,21 +39,19 @@ function App() {
           <Navbar />
           <Header />
           <Cards data={first} moveUp />
-          <TextAndPictureEachOther nameOfImageFromPublicWithExtension="view.jpg" />
+          <TextAndPictureEachOther nameOfImageFromPublicWithExtension="mapWithPoints.jpg" />
           <Cards data={first} />
           <TextOnImage
             title="Przestrzeń, w której doskonale czuje się każdy domownik"
             text="Leśne Zacisze to kameralna inwestycja, która obejmuje cztery budynki w zabudowie bliźniaczej, czyli osiem domów. Lokale dostępne są w dwóch wariantach: o powierzchni 92,93 m² z trzema sypialniami lub 92,38 m² z czterema sypialnialniami lub 92,38 m² z cztzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale taiami, dzięki czemu komfortowo dopasujesz przestrzeń do swoich indywidualnych potrzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale także np. za praktyczny gabinet do pracy zdalnej.
 
-            W tych funkcjonalnych wnętrzach każdy członek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Domy mają także indywidualne ogródki, które idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi."
-            nameOfImageFromPublicWithExtension="headerBgc.jpg"
+            W tych funkcjonalnych wnętrzach każdy człosnek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Domy mają także indywidualne ogródki, które idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi."
+            nameOfImageFromPublicWithExtension="textOnImage2.jpg"
           />
-          <SliderWithText />
-          <TemporaryWrapper>
-            <h2>
-              SEKCJA Z OPISEM POSZCZEGÓLNYCH KONDYGNACJI WRAZ ZE ZDJĘCIAMI RZUTÓW - RZUTY 3D OD MM
-            </h2>
-          </TemporaryWrapper>
+          <SliderWithText images={images} />
+
+          <YourNewHome title="Poznaj swój wymarzony dom" subTitle="Dom z ogrodem - 3 sypialnie" />
+
           <TemporaryWrapper>
             <h2>
               ZDJĘCIE Z DRONA Z OZNACZONYMI BUDYNKAMI WRAZ Z KÓŁKAMI OZNACZAJĄCYMI NUMERY BUDYNKÓW -
@@ -64,7 +64,7 @@ function App() {
             text="W branży deweloperskiej skupiamy się na nietuzinkowych, oryginalnych rozwiązaniach, które łączą maksymalny komfort mieszkania w funkcjonalnych wnętrzach z wyjątkową lokalizacją inwestycji. Tworzymy nowoczesne domy z zachowaniem najwyższych standardów, przy wykorzystaniu sprawdzonych materiałów i pracy doświadczonych specjalistów.
 
             Każdy realizowany przez nas projekt ma gwarantować przyszłym mieszkańcom satysfakcję z dokonanego wyboru. Oferujemy domy, które odpowiadają na potrzeby nawet najbardziej wymagających klientów."
-            nameOfImageFromPublicWithExtension="headerBgc.jpg"
+            nameOfImageFromPublicWithExtension="textOnImage1.jpg"
           />
           <TemporaryWrapper>
             <h2>DANE KONTAKTOWE</h2>

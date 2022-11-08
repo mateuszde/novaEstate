@@ -18,6 +18,11 @@ export const TextWrapper = styled.div`
   width: 50%;
   background-color: ${({ theme }) => theme.colors.white};
   padding: 40px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
+    rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
+    rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  opacity: 0.95;
 `;
 
 export const Title = styled.h2`

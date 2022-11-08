@@ -1,11 +1,11 @@
 import SliderGallery from '../SliderGallery/SliderGallery';
 import { Wrapper, SliderWrapper, TextWrapper } from './style';
 
-const SliderWithText = () => {
+const SliderWithText = ({ images }) => {
   return (
     <Wrapper>
       <SliderWrapper>
-        <SliderGallery />
+        <SliderGallery showPlayButton={false} showNav={false} showBullets={true} images={images} />
       </SliderWrapper>
       <TextWrapper>
         <p>

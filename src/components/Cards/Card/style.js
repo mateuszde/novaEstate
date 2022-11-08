@@ -6,8 +6,8 @@ export const CardWrapper = styled.div`
   padding: 20px;
   z-index: 200;
   position: relative;
-  margin-top: 50px;
-  margin-bottom: 50px;
+  margin-top: 90px;
+  margin-bottom: 20px;
 `;
 
 export const IconWrapper = styled.div`

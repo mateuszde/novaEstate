@@ -15,6 +15,13 @@ export const TextWrapper = styled.div`
 
 export const ImageWrapper = styled.div`
   width: 50%;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+  z-index: 600;
+  transition: 0.4s ease;
+
+  &:hover {
+    transform: scale(1.3);
+  }
 `;
 
 export const Title = styled.h2`
