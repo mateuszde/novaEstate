@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export const CardWrapper = styled.div`
   width: 28%;
@@ -23,6 +24,8 @@ export const IconWrapper = styled.div`
   left: 20px;
   color: ${({ theme }) => theme.colors.white};
 `;
+
+export const Icon = styled(FontAwesomeIcon)``;
 
 export const TextWrapper = styled.div`
   margin: 60px 0;

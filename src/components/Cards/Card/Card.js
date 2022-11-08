@@ -1,10 +1,10 @@
-import { CardWrapper, IconWrapper, TextWrapper, Title } from './style';
+import { CardWrapper, Icon, IconWrapper, TextWrapper, Title } from './style';
 
 const Card = ({ icon, title, text }) => {
   return (
     <CardWrapper>
       <IconWrapper>
-        <p>{icon}</p>
+        <Icon icon={icon} />
       </IconWrapper>
       <TextWrapper>
         <Title>{title}</Title>

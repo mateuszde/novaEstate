@@ -5,13 +5,35 @@ import GlobalStyle from './components/globalStyles';
 import Header from './components/Header/Header';
 import Navbar from './components/Navbar/Navbar';
 
-import { first } from './cardsData';
+import { first, second } from './cardsData';
 import { images } from './components/SliderWithText/imagesForSlider';
 import TextOnImage from './components/TextOnImage/TextOnImage';
 import TextAndPictureEachOther from './components/TextAndPictureEachOther/TextAndPictureEachOther';
 import SliderWithText from './components/SliderWithText/SliderWithText';
 import Table from './components/Table/Table';
 import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
+
+//Fontawesome
+import { library } from '@fortawesome/fontawesome-svg-core';
+import {
+  faBuildingCircleCheck,
+  faFileMedical,
+  faGraduationCap,
+  faHouse,
+  faMap,
+  faRoute,
+  faUsersLine,
+} from '@fortawesome/free-solid-svg-icons';
+
+library.add(
+  faFileMedical,
+  faMap,
+  faRoute,
+  faBuildingCircleCheck,
+  faHouse,
+  faUsersLine,
+  faGraduationCap
+);
 
 const theme = {
   colors: {
@@ -44,7 +66,7 @@ function App() {
 
           <TextAndPictureEachOther nameOfImageFromPublicWithExtension="mapWithPoints.jpg" />
 
-          <Cards data={first} />
+          <Cards data={second} />
 
           <TextOnImage
             title="Przestrzeń, w której doskonale czuje się każdy domownik"
