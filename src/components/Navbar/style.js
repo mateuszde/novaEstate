@@ -7,6 +7,7 @@ export const NavWrapper = styled.div`
   left: 0;
   z-index: 900;
   background-color: ${({ theme }) => theme.colors.white};
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
 `;
 
 export const Wrapper = styled.div`

@@ -4,7 +4,7 @@ export const Wrapper = styled.div`
   display: flex;
   margin: 60px auto;
   max-width: 1200px;
-  max-height: 600px;
+  min-height: 600px;
 `;
 
 export const TextWrapper = styled.div`
@@ -18,6 +18,7 @@ export const ImageWrapper = styled.div`
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   z-index: 600;
   transition: 0.4s ease;
+  border-radius: 20px;
 
   &:hover {
     transform: scale(1.3);

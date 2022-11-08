@@ -9,6 +9,7 @@ export const CardWrapper = styled.div`
   position: relative;
   margin-top: 90px;
   margin-bottom: 20px;
+  border-radius: 20px;
 `;
 
 export const IconWrapper = styled.div`
@@ -23,6 +24,7 @@ export const IconWrapper = styled.div`
   top: -45px;
   left: 20px;
   color: ${({ theme }) => theme.colors.white};
+  border-radius: 20px;
 `;
 
 export const Icon = styled(FontAwesomeIcon)``;

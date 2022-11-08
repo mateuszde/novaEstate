@@ -1,6 +1,6 @@
 import { BackgroundWrapper, Wrapper, TextWrapper, Title, StyledParagraph } from './style';
 
-const TextOnImage = ({ title, text, nameOfImageFromPublicWithExtension }) => {
+const TextOnImage = ({ title, textData, nameOfImageFromPublicWithExtension }) => {
   return (
     <BackgroundWrapper
       style={{
@@ -15,7 +15,9 @@ const TextOnImage = ({ title, text, nameOfImageFromPublicWithExtension }) => {
       <Wrapper>
         <TextWrapper>
           <Title>{title}</Title>
-          <StyledParagraph>{text}</StyledParagraph>
+          {textData.map((p) => (
+            <StyledParagraph key={p.id}>{p.text}</StyledParagraph>
+          ))}
         </TextWrapper>
       </Wrapper>
     </BackgroundWrapper>

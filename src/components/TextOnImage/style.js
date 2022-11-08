@@ -10,7 +10,7 @@ export const BackgroundWrapper = styled.div`
 
 export const Wrapper = styled.div`
   max-width: 1200px;
-  min-height: 100%;
+  height: 100%;
   margin: auto;
 `;
 
@@ -21,8 +21,8 @@ export const TextWrapper = styled.div`
   box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px,
     rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px,
     rgba(0, 0, 0, 0.09) 0px -3px 5px;
-
   opacity: 0.95;
+  border-radius: 20px;
 `;
 
 export const Title = styled.h2`
@@ -31,4 +31,6 @@ export const Title = styled.h2`
   color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const StyledParagraph = styled.p``;
+export const StyledParagraph = styled.p`
+  margin-bottom: 30px;
+`;
