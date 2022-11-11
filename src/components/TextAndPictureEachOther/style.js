@@ -11,6 +11,7 @@ export const TextWrapper = styled.div`
   width: 50%;
   background-color: ${({ theme }) => theme.colors.white};
   padding: 40px 40px 40px 0;
+  text-align: justify;
 `;
 
 export const ImageWrapper = styled.div`

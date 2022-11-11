@@ -9,19 +9,17 @@ const SliderWithText = ({ images }) => {
       </SliderWrapper>
       <TextWrapper>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit accusantium excepturi, non,
-          autem quod cumque tempore quisquam inventore expedita esse itaque accusamus blanditiis
-          nesciunt impedit nemo animi eos. Officia, fugi
+          Budynki wyróżniają się nowoczesną, miłą dla oka architekturą. Łączą elegancki styl z
+          naturalnymi akcentami w postaci kamienia. Do ich budowy wykorzystano sprawdzone, dobrej
+          jakości materiały. Zadbano o doskonałą izolację akustyczną i termiczną. Wnętrza są pełne
+          naturalnego światła, zadbano o to aby było również w górnej łazience, co zdecydowanie
+          wyróżnia ten projekt.
         </p>
         <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nobis dolores natus
-          quaerat, quibusdam at commodi error quisquam fugit cupiditate itaque assumenda vitae aut
-          dolorum perspiciatis autem. Nesciunt, maxime autem?
-        </p>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Enim nobis dolores natus
-          quaerat, quibusdam at commodi error quisquam fugit cupiditate itaque assumenda vitae aut
-          dolorum perspiciatis autem. Nesciunt, maxime autem?
+          Nie będziesz mieć także żadnych problemów z parkowaniem – do każdego domu przypisane są
+          dwa miejsca postojowe, jedno w garażu a jedno na zewnątrz budynku. Osiedla NoVa jest
+          doskonałym wyborem dla młodych par i rodzin z dziećmi, które chcą mieszkać w spokojnej,
+          zdrowej okolicy z wygodnym dostępem do infrastruktury miasta.
         </p>
       </TextWrapper>
     </Wrapper>

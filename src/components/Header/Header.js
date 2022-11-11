@@ -7,7 +7,8 @@ const Header = () => {
         backgroundImage: `url(${process.env.PUBLIC_URL + '/img/headerBgc1.jpg'})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
-        backgroundPosition: 'center',
+        backgroundPosition: 'bottom',
+        // backgroundAttachment: 'fixed',
       }}
     >
       <Wrapper>

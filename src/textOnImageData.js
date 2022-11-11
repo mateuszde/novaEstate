@@ -6,11 +6,11 @@ export const textOnImageData = [
     texts: [
       {
         id: 1,
-        text: 'Leśne Zacisze to kameralna inwestycja, która obejmuje cztery budynki w zabudowie bliźniaczej, czyli osiem domów. Lokale dostępne są w dwóch wariantach: o powierzchni 92,93 m² z trzema sypialniami lub 92,38 m² z czterema sypialnialniami lub 92,38 m² z cztzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale taiami, dzięki czemu komfortowo dopasujesz przestrzeń do swoich indywidualnych potrzeb. Dodatkowy pokój na parterze może służyć Ci nie tylko za sypialnię, ale także np. za praktyczny gabinet do pracy zdalnej.',
+        text: 'Osiedle NoVa to kameralna inwestycja, która obejmuje 10 lokali mieszkalnych w zabudowie szeregowej. Lokale o powierzchni 97,58 m² z trzema sypialniami, garażem w bryle budynku oraz ogródkiem. Dodatkowo na piętrze została zaprojektowana oddzielna garderoba.',
       },
       {
         id: 2,
-        text: 'W tych funkcjonalnych wnętrzach każdy człosnek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Domy mają także indywidualne ogródki, które idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi.',
+        text: 'W tych funkcjonalnych wnętrzach każdy członek rodziny znajdzie miejsce, zapewniające mu prywatność i przestrzeń do odpoczynku lub rozwijania swoich pasji. Ogródki idealnie sprawdzają się do uprawy roślin, spotkań ze znajomymi czy zabaw z dziećmi.',
       },
     ],
   },

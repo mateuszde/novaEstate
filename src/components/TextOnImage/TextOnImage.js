@@ -10,6 +10,7 @@ const TextOnImage = ({ title, textData, nameOfImageFromPublicWithExtension }) =>
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'center',
+        backgroundAttachment: 'fixed',
       }}
     >
       <Wrapper>

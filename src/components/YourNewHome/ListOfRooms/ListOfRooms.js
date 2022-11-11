@@ -7,7 +7,7 @@ const ListOfRooms = ({ rooms, sumOfArea }) => {
       {rooms.map((room, index) => (
         <Room key={index} nameOfRoom={room.nameOfRoom} area={room.area} />
       ))}
-      <RoomRow title="Suma powierzchni" valueOfData={sumOfArea} unit="m2" bold={true} />
+      <RoomRow title="Suma powierzchni" valueOfData={sumOfArea} unit="m²" bold={true} />
     </>
   );
 };

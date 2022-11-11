@@ -38,4 +38,5 @@ export const Title = styled.h2`
 
 export const StyledParagraph = styled.p`
   margin-bottom: 30px;
+  text-align: justify;
 `;

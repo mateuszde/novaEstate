@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
-  min-height: 75vh;
+  min-height: 85vh;
   position: relative;
 `;
 export const Wrapper = styled.header`
@@ -23,6 +23,7 @@ export const TextWrapper = styled.div`
   padding: 30px;
   width: 100%;
   height: 100%;
+  text-shadow: 0 1px 1px #000;
   color: ${({ theme }) => theme.colors.white};
 
   & h1 {

@@ -14,7 +14,7 @@ export const CardWrapper = styled.div`
   transition: 0.2s ease;
 
   &:hover {
-    transform: scale(1.02);
+    transform: scale(1.05);
   }
 `;
 
@@ -36,7 +36,7 @@ export const IconWrapper = styled.div`
 export const Icon = styled(FontAwesomeIcon)``;
 
 export const TextWrapper = styled.div`
-  margin: 60px 0;
+  margin: 60px 0 20px 0;
 `;
 
 export const Title = styled.h2`

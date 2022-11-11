@@ -16,6 +16,7 @@ export const SliderWrapper = styled.div`
 
 export const TextWrapper = styled.div`
   width: 35%;
+  text-align: justify;
 
   & > p {
     padding-bottom: 20px;

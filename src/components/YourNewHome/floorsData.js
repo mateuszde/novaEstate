@@ -1,10 +1,3 @@
-// const relativePath = `${process.env.PUBLIC_URL}`;
-
-// const imagesPath = {
-//   0: `${relativePath}/img/rzut0.png`,
-//   1: `${relativePath}/img/rzut1.png`,
-// };
-
 export const floorsData = [
   {
     id: 0,
@@ -42,7 +35,7 @@ export const floorsData = [
   {
     id: 1,
     floorPlan: 'rzut1.png',
-    nameOfFloor: 'Piętro - 50.19 m2',
+    nameOfFloor: 'Piętro - 50.19 m²',
     rooms: [
       {
         id: 0,

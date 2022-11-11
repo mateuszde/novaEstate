@@ -1,10 +1,12 @@
 import styled from 'styled-components';
 
 export const StyledImg = styled.img`
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover; /* or object-fit: contain; */
+  /* display: block; */
+  width: 500px;
+  height: 600px;
+  /* object-fit: cover;  */
+
+  /* or object-fit: contain; */
   /* width: 100%; */
   /* height: 100%; */
   /* object-fit: cover; */

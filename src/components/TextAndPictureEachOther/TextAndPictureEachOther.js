@@ -5,20 +5,17 @@ const TextAndPictureEachOther = ({ nameOfImageFromPublicWithExtension }) => {
   return (
     <Wrapper>
       <TextWrapper>
-        <Title>Wypełniona zielenią oaza</Title>
+        <Title>Wypełniona cisza enklawa</Title>
         <StyleParagraph>
-          Leśne Zacisze w Głogoczowie, jak sama nazwa wskazuje, to przede wszystkim okolica, która
-          zachwyca niezwykle bogatą fauną i florą. Inwestycję otaczają pełne wyjątkowego uroku
-          zalesienia, łąki i pola. W bezpośrednim sąsiedztwie znajduje się tylko kilka domów
+          NoVa w Łęgowie to inwestycja która znajduje się w bezpośrednim sąsiedztwie domów
           jednorodzinnych, dzięki czemu masz zapewnioną idealną ciszę i niezmącony spokój. Otoczenie
-          zieleni gwarantuje zdrowy klimat oraz czyste powietrze o każdej porze roku.
+          gwarantuje zdrowy klimat oraz czyste powietrze o każdej porze roku.
         </StyleParagraph>
         <StyledParagraph>
-          W Leśnym Zaciszu o poranku będziesz cieszyć się śpiewem ptaków i oddychać pełną piersią,
-          chłonąc cudowny zapach lasu. Wieczorem rozsiądziesz się wygodnie, by podziwiać najpierw
-          malowniczy zachód słońca, a następnie obserwować rozgwieżdżone niebo. To idealnie miejsce
-          zarówno do tego, by odpocząć od zgiełku miasta, jak i pracować w pełnym skupieniu. W
-          okolicy nie brakuje również punktów usługowych czy sklepów, w których zrobisz codzienne
+          W NoVa będziesz cieszyć się ciszą, niewielką ilością sąsiadów, własnym ogródkiem na którym
+          wieczorem rozsiądziesz się wygodnie, by podziwiać malowniczy zachód słońca; To idealnie
+          miejsce zarówno do tego, by odpocząć od zgiełku miasta, jak i pracować w pełnym skupieniu.
+          W okolicy nie brakuje również punktów usługowych czy sklepów, w których zrobisz codzienne
           zakupy.
         </StyledParagraph>
       </TextWrapper>
