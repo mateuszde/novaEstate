@@ -65,29 +65,31 @@ const theme = {
 };
 
 function App() {
-  const localization = useRef();
-  const aboutInvestment = useRef();
-  const houses = useRef();
-  const availability = useRef();
-  const investor = useRef();
-  const contact = useRef();
-
-  const scrollToSection = (elementRef) => {
-    window.scrollTo({
-      top: elementRef.current.offSetTop,
-      behavior: 'smooth',
-    });
-  };
-
-  console.log(localization);
+  const localization = useRef(null);
+  const aboutInvestment = useRef(null);
+  const houses = useRef(null);
+  const availability = useRef(null);
+  const investor = useRef(null);
+  const contact = useRef(null);
+  const header = useRef(null);
 
   return (
     <>
       <GlobalStyle />
       <ThemeProvider theme={theme}>
         <FullWidthWrapper>
-          <Navbar />
-          <Header />
+          <Navbar
+            refs={{
+              localization,
+              aboutInvestment,
+              houses,
+              availability,
+              investor,
+              contact,
+              header,
+            }}
+          />
+          <Header ref={header} />
           <Cards data={first} moveUp />
           <TextAndPictureEachOther
             ref={localization}

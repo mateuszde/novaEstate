@@ -1,11 +1,12 @@
+import { forwardRef } from 'react';
 import Floors from '../Floors/Floors';
 import { floorsData } from '../floorsData';
 
 import { Wrapper, TitleWrapper, FloorsWrapper } from './style';
 
-const YourNewHome = ({ title, subTitle }) => {
+const YourNewHome = forwardRef(({ title, subTitle }, ref) => {
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <TitleWrapper>
         <h2>{title} </h2>
         <h3>{subTitle}</h3>
@@ -15,6 +16,6 @@ const YourNewHome = ({ title, subTitle }) => {
       </FloorsWrapper>
     </Wrapper>
   );
-};
+});
 
 export default YourNewHome;

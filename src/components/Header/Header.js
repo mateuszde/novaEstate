@@ -1,8 +1,10 @@
+import { forwardRef } from 'react';
 import { BackgroundWrapper, Wrapper, TextWrapper, ExtraContentWrapper } from './style';
 
-const Header = () => {
+const Header = forwardRef((props, ref) => {
   return (
     <BackgroundWrapper
+      ref={ref}
       style={{
         backgroundImage: `url(${process.env.PUBLIC_URL + '/img/headerBgc1.jpg'})`,
         backgroundRepeat: 'no-repeat',
@@ -21,6 +23,6 @@ const Header = () => {
       </Wrapper>
     </BackgroundWrapper>
   );
-};
+});
 
 export default Header;

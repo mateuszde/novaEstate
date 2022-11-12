@@ -23,6 +23,7 @@ export const LogoWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 `;
 export const Logo = styled.img`
   height: 90px;

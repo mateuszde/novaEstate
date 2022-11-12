@@ -5,6 +5,7 @@ import {
   faMobileScreen,
   faUser,
 } from '@fortawesome/free-solid-svg-icons';
+import { forwardRef } from 'react';
 import {
   Wrapper,
   Title,
@@ -15,9 +16,9 @@ import {
   InvestmentAddressWrapper,
 } from './style';
 
-const Contact = ({ data }) => {
+const Contact = forwardRef(({ data }, ref) => {
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <ContactWrapper>
         <Title>Skontaktuj się!</Title>
         <ContactElementWrapper>
@@ -50,6 +51,6 @@ const Contact = ({ data }) => {
       <PersonImageWrapper>ZDJĘCIE MICHAŁA</PersonImageWrapper>
     </Wrapper>
   );
-};
+});
 
 export default Contact;

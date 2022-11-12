@@ -1,8 +1,10 @@
+import { forwardRef } from 'react';
 import { BackgroundWrapper } from './style';
 
-const Photo = ({ nameOfImageFromPublicWithExtension }) => {
+const Photo = forwardRef(({ nameOfImageFromPublicWithExtension }, ref) => {
   return (
     <BackgroundWrapper
+      ref={ref}
       style={{
         backgroundImage: `url(${
           process.env.PUBLIC_URL + `/img/${nameOfImageFromPublicWithExtension}`
@@ -13,6 +15,6 @@ const Photo = ({ nameOfImageFromPublicWithExtension }) => {
       }}
     ></BackgroundWrapper>
   );
-};
+});
 
 export default Photo;

@@ -1,9 +1,10 @@
+import { forwardRef } from 'react';
 import { StyledParagraph } from '../TextOnImage/style';
 import { Wrapper, Title, StyleParagraph, TextWrapper, ImageWrapper } from './style';
 
-const TextAndPictureEachOther = ({ nameOfImageFromPublicWithExtension }) => {
+const TextAndPictureEachOther = forwardRef((props, ref) => {
   return (
-    <Wrapper>
+    <Wrapper ref={ref}>
       <TextWrapper>
         <Title>Wypełniona cisza enklawa</Title>
         <StyleParagraph>
@@ -22,7 +23,7 @@ const TextAndPictureEachOther = ({ nameOfImageFromPublicWithExtension }) => {
       <ImageWrapper
         style={{
           backgroundImage: `url(${
-            process.env.PUBLIC_URL + `/img/${nameOfImageFromPublicWithExtension}`
+            process.env.PUBLIC_URL + `/img/${props.nameOfImageFromPublicWithExtension}`
           })`,
           backgroundRepeat: 'no-repeat',
           backgroundSize: 'cover',
@@ -31,6 +32,6 @@ const TextAndPictureEachOther = ({ nameOfImageFromPublicWithExtension }) => {
       ></ImageWrapper>
     </Wrapper>
   );
-};
+});
 
 export default TextAndPictureEachOther;
