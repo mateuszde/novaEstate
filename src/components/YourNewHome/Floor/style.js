@@ -16,6 +16,7 @@ export const WrapperImage = styled.div`
   height: 500px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   border-radius: 20px;
+  /* object-fit: contain; */
 
   @media ${device.laptopM} {
     width: 80%;

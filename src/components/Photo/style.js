@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import { device } from '../../device';
 export const BackgroundWrapper = styled.div`
   max-width: 1200px;
-  min-height: 70vh;
+  height: 60vh;
   display: flex;
   justify-content: center;
   margin: 70px auto;
@@ -11,5 +11,9 @@ export const BackgroundWrapper = styled.div`
 
   @media ${device.laptopM} {
     width: 90%;
+  }
+
+  @media ${device.mobileXL} {
+    height: 200px;
   }
 `;
