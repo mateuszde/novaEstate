@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-
+import { device } from '../../device';
 export const BackgroundWrapper = styled.div`
   max-width: 1200px;
   min-height: 70vh;
@@ -8,4 +8,8 @@ export const BackgroundWrapper = styled.div`
   margin: 70px auto;
   border-radius: 20px;
   box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+
+  @media ${device.laptopM} {
+    width: 90%;
+  }
 `;

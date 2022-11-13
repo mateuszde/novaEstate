@@ -26,7 +26,7 @@ const TextAndPictureEachOther = forwardRef((props, ref) => {
             process.env.PUBLIC_URL + `/img/${props.nameOfImageFromPublicWithExtension}`
           })`,
           backgroundRepeat: 'no-repeat',
-          backgroundSize: 'cover',
+          // backgroundSize: 'cover',
           backgroundPosition: 'center',
         }}
       ></ImageWrapper>

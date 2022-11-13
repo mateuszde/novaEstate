@@ -8,6 +8,6 @@ export const Wrapper = styled.div`
   background-color: ${({ theme }) => theme.colors.primary};
 `;
 
-export const StyledParagraph = styled.div`
+export const StyledParagraph = styled.p`
   color: ${({ theme }) => theme.colors.white};
 `;

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-
+import { device } from '../../../device';
 export const CardWrapper = styled.div`
   width: 28%;
   background-color: ${({ theme }) => theme.colors.white};
@@ -16,6 +16,19 @@ export const CardWrapper = styled.div`
   &:hover {
     transform: scale(1.05);
   }
+
+  @media ${device.laptopS} {
+    width: 30%;
+  }
+
+  @media ${device.tablet} {
+    width: 60%;
+    margin: 90px auto 20px;
+  }
+
+  @media ${device.mobileXL} {
+    width: 90%;
+  }
 `;
 
 export const IconWrapper = styled.div`
@@ -25,7 +38,7 @@ export const IconWrapper = styled.div`
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 40px;
+  font-size: ${({ theme }) => theme.fontSize.xl};
   position: absolute;
   top: -45px;
   left: 20px;

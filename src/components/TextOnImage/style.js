@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../device';
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
@@ -6,12 +7,24 @@ export const BackgroundWrapper = styled.div`
   display: flex;
   justify-content: center;
   padding: 40px;
+
+  @media ${device.laptopM} {
+    padding: 0;
+  }
 `;
 
 export const Wrapper = styled.div`
   max-width: 1200px;
   height: 100%;
   margin: auto;
+
+  @media ${device.laptopM} {
+    width: 90%;
+  }
+
+  @media ${device.mobileXL} {
+    width: 100%;
+  }
 `;
 
 export const TextWrapper = styled.div`
@@ -28,12 +41,26 @@ export const TextWrapper = styled.div`
   &:hover {
     opacity: 1;
   }
+
+  @media ${device.laptop} {
+    width: 70%;
+  }
+
+  @media ${device.mobileXL} {
+    width: 90%;
+    margin: 40px auto;
+    box-shadow: none;
+  }
 `;
 
 export const Title = styled.h2`
-  font-size: 36px;
+  font-size: ${({ theme }) => theme.fontSize.xl};
   margin-bottom: 40px;
   color: ${({ theme }) => theme.colors.primary};
+
+  @media ${device.mobileXL} {
+    font-size: ${({ theme }) => theme.fontSize.l};
+  }
 `;
 
 export const StyledParagraph = styled.p`

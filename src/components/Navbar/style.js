@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../device';
 
 export const NavWrapper = styled.div`
   width: 100%;
@@ -17,6 +18,10 @@ export const Wrapper = styled.div`
   max-width: 1200px;
   margin: 0 auto;
   color: ${({ theme }) => theme.colors.black};
+
+  @media ${device.laptopM} {
+    width: 90%;
+  }
 `;
 
 export const LogoWrapper = styled.div`
@@ -27,6 +32,10 @@ export const LogoWrapper = styled.div`
 `;
 export const Logo = styled.img`
   height: 90px;
+
+  @media ${device.laptopS} {
+    height: 70px;
+  }
 `;
 
 export const StyledList = styled.ul`
@@ -34,6 +43,11 @@ export const StyledList = styled.ul`
   height: 100%;
   list-style: none;
   gap: 20px;
+
+  @media ${device.laptopS} {
+    width: 70%;
+    display: none;
+  }
 `;
 
 export const ListItem = styled.li`
@@ -43,7 +57,7 @@ export const ListItem = styled.li`
 export const NavLink = styled.p`
   height: 100%;
   padding: 30px 0;
-  font-size: 18px;
+  font-size: ${({ theme }) => theme.fontSize.s};
   font-weight: 600;
   cursor: pointer;
   transition: 0.2s ease-in-out;

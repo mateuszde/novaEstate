@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { device } from '../../device';
 
 export const BackgroundWrapper = styled.div`
   width: 100%;
@@ -27,18 +28,36 @@ export const TextWrapper = styled.div`
   color: ${({ theme }) => theme.colors.white};
 
   & h1 {
-    font-size: 65px;
+    font-size: ${({ theme }) => theme.fontSize.xxl};
     font-weight: 400;
   }
 
   & h2 {
-    font-size: 36px;
+    font-size: ${({ theme }) => theme.fontSize.xl};
     font-weight: 400;
+  }
+
+  @media ${device.mobileL} {
+    & h1 {
+      font-size: ${({ theme }) => theme.fontSize.xl};
+    }
+
+    & h2 {
+      font-size: ${({ theme }) => theme.fontSize.l};
+    }
   }
 `;
 
 export const ExtraContentWrapper = styled.div`
   text-align: center;
-  margin-top: 30px;
+  margin-top: 10px;
   width: 40%;
+
+  @media ${device.laptopS} {
+    width: 70%;
+  }
+
+  @media ${device.mobileL} {
+    width: 90%;
+  }
 `;

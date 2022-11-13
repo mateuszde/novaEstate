@@ -62,6 +62,14 @@ const theme = {
     darkGray: '#737373',
     white: '#fff',
   },
+  fontSize: {
+    xs: '17px',
+    s: '18px',
+    m: '24px',
+    l: '27px',
+    xl: '36px',
+    xxl: '65px',
+  },
 };
 
 function App() {
