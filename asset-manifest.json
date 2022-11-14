@@ -1,13 +1,18 @@
 {
   "files": {
     "main.css": "/novaEstate/static/css/main.f0c64c66.css",
-    "main.js": "/novaEstate/static/js/main.2fabce6d.js",
+    "main.js": "/novaEstate/static/js/main.5d649776.js",
+    "static/media/rzut0src.png": "/novaEstate/static/media/rzut0src.02a34dfcbd46922806de.png",
+    "static/media/rzut1src.png": "/novaEstate/static/media/rzut1src.7784933fdb61312543ca.png",
+    "static/media/michalMaciejewski.png": "/novaEstate/static/media/michalMaciejewski.59c18866db706c00414c.png",
+    "static/media/mapWithPointsSRC.jpg": "/novaEstate/static/media/mapWithPointsSRC.1740d07f5781516fab6c.jpg",
+    "static/media/numberOfBuildings.JPG": "/novaEstate/static/media/numberOfBuildings.0094eca238d4a053f2fe.JPG",
     "index.html": "/novaEstate/index.html",
     "main.f0c64c66.css.map": "/novaEstate/static/css/main.f0c64c66.css.map",
-    "main.2fabce6d.js.map": "/novaEstate/static/js/main.2fabce6d.js.map"
+    "main.5d649776.js.map": "/novaEstate/static/js/main.5d649776.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c64c66.css",
-    "static/js/main.2fabce6d.js"
+    "static/js/main.5d649776.js"
   ]
 }
