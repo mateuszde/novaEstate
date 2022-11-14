@@ -37,7 +37,7 @@ export const TextWrapper = styled.div`
     font-weight: 400;
   }
 
-  @media ${device.mobileL} {
+  @media ${device.mobileXL} {
     & h1 {
       font-size: ${({ theme }) => theme.fontSize.xl};
     }
@@ -57,7 +57,7 @@ export const ExtraContentWrapper = styled.div`
     width: 70%;
   }
 
-  @media ${device.mobileL} {
+  @media ${device.mobileXL} {
     width: 90%;
   }
 `;

@@ -28,6 +28,7 @@ export const TextWrapper = styled.div`
 
   @media ${device.laptop} {
     width: 100%;
+    padding: 40px 0;
   }
 
   @media ${device.tablet} {

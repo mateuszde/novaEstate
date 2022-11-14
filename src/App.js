@@ -63,6 +63,7 @@ const theme = {
     white: '#fff',
   },
   fontSize: {
+    extraS: '14px',
     xs: '17px',
     s: '18px',
     m: '24px',

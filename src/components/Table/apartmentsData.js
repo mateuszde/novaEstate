@@ -34,7 +34,7 @@ export const apartmentsData = [
   {
     id: 4,
     number: '11E',
-    area: '97,58',
+    area: '97,58 m²',
     landArea: '300 m²',
     availability: 'DOSTĘPNE',
     price: '700 000 zł',

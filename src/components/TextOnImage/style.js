@@ -44,6 +44,7 @@ export const TextWrapper = styled.div`
 
   @media ${device.laptop} {
     width: 70%;
+    padding: 40px 15px;
   }
 
   @media ${device.mobileXL} {
