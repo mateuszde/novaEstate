@@ -1,6 +1,7 @@
 import { forwardRef } from 'react';
 import { StyledParagraph } from '../TextOnImage/style';
-import { Wrapper, Title, StyleParagraph, TextWrapper, ImageWrapper } from './style';
+import { Wrapper, StyledImage, Title, StyleParagraph, TextWrapper, ImageWrapper } from './style';
+import image from '../../images/mapWithPointsSRC.jpg';
 
 const TextAndPictureEachOther = forwardRef((props, ref) => {
   return (
@@ -20,16 +21,9 @@ const TextAndPictureEachOther = forwardRef((props, ref) => {
           zakupy.
         </StyledParagraph>
       </TextWrapper>
-      <ImageWrapper
-        style={{
-          backgroundImage: `url(${
-            process.env.PUBLIC_URL + `/img/${props.nameOfImageFromPublicWithExtension}`
-          })`,
-          backgroundRepeat: 'no-repeat',
-          // backgroundSize: 'cover',
-          backgroundPosition: 'center',
-        }}
-      ></ImageWrapper>
+      <ImageWrapper>
+        <StyledImage src={image} alt="" />
+      </ImageWrapper>
     </Wrapper>
   );
 });

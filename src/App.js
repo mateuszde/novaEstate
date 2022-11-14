@@ -15,7 +15,7 @@ import SliderWithText from './components/SliderWithText/SliderWithText';
 import Table from './components/Table/Table';
 import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
 import Photo from './components/Photo/Photo';
-
+import buildings from './images/numberOfBuildings.JPG';
 //Fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -117,7 +117,7 @@ function App() {
             title="Poznaj swój wymarzony dom"
             subTitle="Dom z ogrodem | 3 sypialnie | 97,58 m²"
           />
-          <Photo ref={availability} nameOfImageFromPublicWithExtension={'numberOfBuildings.JPG'} />
+          <Photo ref={availability} image={buildings} />
           <Table />
           <TextOnImage
             ref={investor}

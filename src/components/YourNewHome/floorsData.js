@@ -1,7 +1,11 @@
+import groundFloor from '../../images/rzut0src.png';
+import firstFloor from '../../images/rzut1src.png';
+
 export const floorsData = [
   {
     id: 0,
-    floorPlan: 'rzut0.png',
+    // floorPlan: 'rzut0.png',
+    floorPlan: groundFloor,
     nameOfFloor: 'Parter - 47.39 m2',
     rooms: [
       {
@@ -34,7 +38,8 @@ export const floorsData = [
   },
   {
     id: 1,
-    floorPlan: 'rzut1.png',
+    // floorPlan: 'rzut1.png',
+    floorPlan: firstFloor,
     nameOfFloor: 'Piętro - 50.19 m²',
     rooms: [
       {

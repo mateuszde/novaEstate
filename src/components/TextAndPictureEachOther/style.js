@@ -23,7 +23,7 @@ export const Wrapper = styled.div`
 export const TextWrapper = styled.div`
   width: 50%;
   background-color: ${({ theme }) => theme.colors.white};
-  padding: 40px 40px 40px 0;
+  padding: 0 40px 40px 0;
   text-align: justify;
 
   @media ${device.laptop} {
@@ -39,27 +39,29 @@ export const TextWrapper = styled.div`
 
 export const ImageWrapper = styled.div`
   width: 50%;
+
+  @media ${device.laptop} {
+    width: 100%;
+  }
+`;
+
+export const StyledImage = styled.img`
+  width: 100%;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-  z-index: 600;
   transition: 0.4s ease;
   border-radius: 20px;
-  background-size: cover !important;
 
   &:hover {
     transform: scale(1.3);
   }
 
   @media ${device.laptop} {
-    width: 100%;
-    height: 900px;
-
     &:hover {
       transform: none;
     }
   }
 
   @media ${device.tablet} {
-    max-width: 900px;
     border-radius: 0;
   }
 `;

@@ -14,7 +14,9 @@ import {
   ContactElementWrapper,
   PersonImageWrapper,
   InvestmentAddressWrapper,
+  StyledImg,
 } from './style';
+import image from '../../images/michalMaciejewski.png';
 
 const Contact = forwardRef(({ data }, ref) => {
   return (
@@ -48,7 +50,9 @@ const Contact = forwardRef(({ data }, ref) => {
         </ContactElementWrapper>
       </ContactWrapper>
 
-      <PersonImageWrapper>ZDJĘCIE MICHAŁA</PersonImageWrapper>
+      <PersonImageWrapper>
+        <StyledImg src={image} alt="" />
+      </PersonImageWrapper>
     </Wrapper>
   );
 });

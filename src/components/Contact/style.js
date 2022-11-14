@@ -3,13 +3,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { device } from '../../device';
 export const Wrapper = styled.div`
   display: flex;
+  flex-direction: row-reverse;
   max-width: 1200px;
   margin: 70px auto;
-
-  & > div {
-    width: 50%;
-    min-height: 200px;
-  }
 
   @media ${device.laptopM} {
     width: 90%;
@@ -17,11 +13,7 @@ export const Wrapper = styled.div`
 
   @media ${device.mobileXL} {
     flex-direction: column;
-
-    & > div {
-      width: 100%;
-      min-height: 200px;
-    }
+    margin: 70px auto 0;
   }
 `;
 
@@ -45,10 +37,12 @@ export const Icon = styled(FontAwesomeIcon)`
 export const ContactWrapper = styled.div`
   display: flex;
   flex-direction: column;
+  height: 400px;
+  width: 50%;
 
   @media ${device.mobileXL} {
     width: 100%;
-    margin-bottom: 60px;
+    /* margin-bottom: 60px; */
   }
 `;
 
@@ -69,4 +63,17 @@ export const InvestmentAddressWrapper = styled.div`
   flex-direction: column;
 `;
 
-export const PersonImageWrapper = styled.div``;
+export const PersonImageWrapper = styled.div`
+  width: 50%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+  @media ${device.mobileXL} {
+    width: 100%;
+  }
+`;
+
+export const StyledImg = styled.img`
+  height: 400px;
+`;

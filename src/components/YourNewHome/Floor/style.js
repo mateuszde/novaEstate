@@ -12,24 +12,22 @@ export const Wrapper = styled.div`
 `;
 
 export const WrapperImage = styled.div`
-  width: 700px;
-  height: 500px;
+  width: 60%;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
   border-radius: 20px;
-  /* object-fit: contain; */
 
-  @media ${device.laptopM} {
-    width: 80%;
-    margin: 60px auto;
-  }
-
-  @media ${device.tablet} {
-    width: 100%;
+  @media ${device.laptop} {
+    width: 90%;
+    margin: 60px auto 0;
   }
 `;
 
+export const StyledImage = styled.img`
+  width: 100%;
+`;
+
 export const WrapperFloorData = styled.div`
-  flex-grow: 1;
+  width: 40%;
   padding: 0 0 0 30px;
   display: flex;
   flex-direction: column;
