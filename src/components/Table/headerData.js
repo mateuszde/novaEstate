@@ -1,7 +1,7 @@
 export const headerData = {
   number: 'NR',
-  area: 'POWIERZCHNIA',
-  landArea: 'DZIAŁKA',
+  area: 'POWIERZ.',
+  // landArea: 'DZIAŁKA',
   availability: 'DOSTĘPNOŚĆ',
   price: 'CENA',
 };

@@ -16,6 +16,9 @@ import Table from './components/Table/Table';
 import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
 import Photo from './components/Photo/Photo';
 import buildings from './images/numberOfBuildings.JPG';
+
+import CookieConsent from 'react-cookie-consent';
+
 //Fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
@@ -129,6 +132,22 @@ function App() {
           <Contact ref={contact} data={contactData} />
 
           <Footer />
+          <CookieConsent
+            style={{
+              background: `${theme.colors.primary}`,
+              fontSize: '14px',
+            }}
+            buttonText="Rozumiem"
+            buttonStyle={{
+              color: `${theme.colors.white}`,
+              background: `${theme.colors.secondary}`,
+              fontSize: '14px',
+              borderRadius: '20px',
+              padding: '10px 15px',
+            }}
+          >
+            Ta strona korzysta z plików cookie w celu zwiększenia komfortu użytkowania.
+          </CookieConsent>
         </FullWidthWrapper>
       </ThemeProvider>
     </>

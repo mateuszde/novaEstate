@@ -9,7 +9,7 @@ export const first = [
     id: 2,
     icon: 'users-line',
     title: 'Miejsce dla Ciebie',
-    text: 'Czeka na Ciebie jeden z pięciu nowoczesnych domów o powierzchni 97,58m² z trzema sypialniami, przemyślany rozkład pomieszczeń co daje duże możliwości własnej aranżacji.',
+    text: 'Czeka na Ciebie jeden z pięciu nowoczesnych domów o powierzchni 97,58m² z trzema sypialniami. Przemyślany rozkład pomieszczeń daje duże możliwości własnej aranżacji.',
   },
   {
     id: 3,
@@ -36,6 +36,6 @@ export const second = [
     id: 3,
     icon: 'route',
     title: 'Rekreacja',
-    text: 'W okolicy możesz skorzystać z licznych ścieżek spacerowych jak i rowerowych. Znajdziesz też miejsce na aktywność fizyczną - kort tenirowy czy szkołę jazdy konnej.',
+    text: 'W okolicy możesz skorzystać z licznych ścieżek spacerowych jak i rowerowych. Znajdziesz też miejsce na aktywność fizyczną - kort tenisowy czy szkołę jazdy konnej.',
   },
 ];

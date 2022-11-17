@@ -1,13 +1,6 @@
-import {
-  Wrapper,
-  NumberWrapper,
-  AreaWrapper,
-  LandAreaWrapper,
-  AvailabilityWrapper,
-  PriceWrapper,
-} from './style';
+import { Wrapper, NumberWrapper, AreaWrapper, AvailabilityWrapper, PriceWrapper } from './style';
 
-const TableRow = ({ number, area, landArea, availability, price, bold = false }) => {
+const TableRow = ({ number, area, availability, price, bold = false }) => {
   return (
     <Wrapper bold={bold}>
       <NumberWrapper>
@@ -16,9 +9,6 @@ const TableRow = ({ number, area, landArea, availability, price, bold = false })
       <AreaWrapper>
         <p>{area}</p>
       </AreaWrapper>
-      <LandAreaWrapper>
-        <p>{landArea}</p>
-      </LandAreaWrapper>
       <AvailabilityWrapper>
         <p>{availability}</p>
       </AvailabilityWrapper>

@@ -9,4 +9,8 @@ export const Wrapper = styled.div`
   @media ${device.laptopM} {
     width: 90%;
   }
+
+  @media ${device.mobileXL} {
+    width: 100%;
+  }
 `;
