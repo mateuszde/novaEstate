@@ -1,25 +1,6 @@
 import { useRef } from 'react';
 import { ThemeProvider } from 'styled-components';
-import { FullWidthWrapper } from './AppStyle';
-import Cards from './components/Cards/Cards/Cards';
-import GlobalStyle from './components/globalStyles';
-import Header from './components/Header/Header';
-import Navbar from './components/Navbar/Navbar';
-import { textOnImageData } from './textOnImageData';
-import { first, second } from './cardsData';
-import { contactData } from './contactData';
-import { images } from './components/SliderWithText/imagesForSlider';
-import TextOnImage from './components/TextOnImage/TextOnImage';
-import TextAndPictureEachOther from './components/TextAndPictureEachOther/TextAndPictureEachOther';
-import SliderWithText from './components/SliderWithText/SliderWithText';
-import Table from './components/Table/Table';
-import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
-import Photo from './components/Photo/Photo';
-import buildings from './images/numberOfBuildings.JPG';
-
 import CookieConsent from 'react-cookie-consent';
-
-//Fontawesome
 import { library } from '@fortawesome/fontawesome-svg-core';
 import {
   faBriefcase,
@@ -35,8 +16,27 @@ import {
   faUser,
   faUsersLine,
 } from '@fortawesome/free-solid-svg-icons';
+
+import GlobalStyle from './components/globalStyles';
+import { FullWidthWrapper } from './AppStyle';
+
+import Cards from './components/Cards/Cards/Cards';
+import Header from './components/Header/Header';
+import Navbar from './components/Navbar/Navbar';
+import TextOnImage from './components/TextOnImage/TextOnImage';
+import TextAndPictureEachOther from './components/TextAndPictureEachOther/TextAndPictureEachOther';
+import SliderWithText from './components/SliderWithText/SliderWithText';
+import Table from './components/Table/Table';
+import YourNewHome from './components/YourNewHome/YourNewHome/YourNewHome';
+import Photo from './components/Photo/Photo';
 import Footer from './components/Footer/Footer';
 import Contact from './components/Contact/Contact';
+
+import { textOnImageData } from './textOnImageData';
+import { first, second } from './cardsData';
+import { contactData } from './contactData';
+import { images } from './components/SliderWithText/imagesForSlider';
+import buildings from './images/numberOfBuildings.JPG';
 
 library.add(
   faFileMedical,
