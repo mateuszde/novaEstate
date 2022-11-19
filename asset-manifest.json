@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/novaEstate/static/css/main.f0c64c66.css",
-    "main.js": "/novaEstate/static/js/main.73d1b929.js",
-    "static/media/rzut0src.png": "/novaEstate/static/media/rzut0src.02a34dfcbd46922806de.png",
-    "static/media/rzut1src.png": "/novaEstate/static/media/rzut1src.7784933fdb61312543ca.png",
-    "static/media/michalMaciejewski.png": "/novaEstate/static/media/michalMaciejewski.59c18866db706c00414c.png",
-    "static/media/mapWithPointsSRC.jpg": "/novaEstate/static/media/mapWithPointsSRC.1740d07f5781516fab6c.jpg",
-    "static/media/numberOfBuildings.JPG": "/novaEstate/static/media/numberOfBuildings.0094eca238d4a053f2fe.JPG",
-    "index.html": "/novaEstate/index.html",
-    "main.f0c64c66.css.map": "/novaEstate/static/css/main.f0c64c66.css.map",
-    "main.73d1b929.js.map": "/novaEstate/static/js/main.73d1b929.js.map"
+    "main.css": "/static/css/main.f0c64c66.css",
+    "main.js": "/static/js/main.abe89991.js",
+    "static/media/michalMaciejewski.png": "/static/media/michalMaciejewski.59c18866db706c00414c.png",
+    "static/media/mapWithPointsSRC.jpg": "/static/media/mapWithPointsSRC.1740d07f5781516fab6c.jpg",
+    "static/media/rzut0src.png": "/static/media/rzut0src.28c92ff2443dce543591.png",
+    "static/media/numberOfBuildings.JPG": "/static/media/numberOfBuildings.0094eca238d4a053f2fe.JPG",
+    "static/media/rzut1src.png": "/static/media/rzut1src.a3080f9f4fd3ec1c7921.png",
+    "index.html": "/index.html",
+    "main.f0c64c66.css.map": "/static/css/main.f0c64c66.css.map",
+    "main.abe89991.js.map": "/static/js/main.abe89991.js.map"
   },
   "entrypoints": [
     "static/css/main.f0c64c66.css",
-    "static/js/main.73d1b929.js"
+    "static/js/main.abe89991.js"
   ]
 }
