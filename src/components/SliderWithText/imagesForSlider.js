@@ -1,7 +1,7 @@
 const relativePath = `${process.env.PUBLIC_URL}`;
 
 const imagesPath = {
-  0: `${relativePath}/img/headerBgc1.jpg`,
+  0: `${relativePath}/img/1.JPG`,
   1: `${relativePath}/img/2.JPG`,
   2: `${relativePath}/img/3.JPG`,
   3: `${relativePath}/img/4.JPG`,

@@ -6,11 +6,10 @@ const Header = forwardRef((props, ref) => {
     <BackgroundWrapper
       ref={ref}
       style={{
-        backgroundImage: `url(${process.env.PUBLIC_URL + '/img/headerBgc1.jpg'})`,
+        backgroundImage: `url(${process.env.PUBLIC_URL + '/img/1.JPG'})`,
         backgroundRepeat: 'no-repeat',
         backgroundSize: 'cover',
         backgroundPosition: 'bottom',
-        // backgroundAttachment: 'fixed',
       }}
     >
       <Wrapper>

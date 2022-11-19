@@ -30,10 +30,6 @@ const Contact = forwardRef(({ data }, ref) => {
           </p>
         </ContactElementWrapper>
         <ContactElementWrapper>
-          <Icon icon={faBriefcase} />
-          <p>{data.jobPosition}</p>
-        </ContactElementWrapper>
-        <ContactElementWrapper>
           <Icon icon={faMobileScreen} />
           <p>{data.mobile}</p>
         </ContactElementWrapper>

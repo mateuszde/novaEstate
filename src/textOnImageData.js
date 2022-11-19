@@ -2,7 +2,7 @@ export const textOnImageData = [
   {
     id: 1,
     title: 'Przestrzeń, w której doskonale czuje się każdy domownik',
-    imageBgc: 'textOnImage2.jpg',
+    imageBgc: '11.JPG',
     texts: [
       {
         id: 1,
@@ -17,7 +17,7 @@ export const textOnImageData = [
   {
     id: 2,
     title: 'O inwestorze',
-    imageBgc: 'textOnImage1.jpg',
+    imageBgc: '12.JPG',
     texts: [
       {
         id: 1,
